@@ -1,0 +1,115 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar, .navbar-inverse, .navbar-fixed-top {
+	background-color: red;	
+	
+}
+
+
+.error {
+	color: red;
+}
+ul {
+	list-style: none;
+}
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 400px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+}
+
+#email {
+	width: 280px;
+}
+
+#password {
+	width: 280px;
+}
+
+label {
+	margin-bottom: 0px;
+}
+
+.content-container {
+	display: flex;
+	justify-content: center;
+}
+
+.content-container td {
+	padding: 5px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.image-container {
+    flex: 1;
+   	display: flex;
+   	justify-content: center;
+}
+
+.image-holder {
+
+	background-color: #eee;
+	height: 180px;
+    margin: 5px;
+    width: 260px;
+    justify-content: center;
+}
+ 
+.image-container > h4 {
+    align-self: center;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+}
+
+.info-container  {
+	flex: 1;
+	padding: 5px;
+}
+
+.form-container {
+	display: flex;
+	padding: 1px;
+}
+
+.checkout-container {
+	flex: 1;
+	justify-content: flex-end;
+	align-content: flex-end;
+	margin-left: auto;
+}
+.email-container {
+	flex: 1;
+	padding:2px;
+	margin: 5px 0px 5px 0px;
+}
+
+.password-container {
+	flex: 1;
+	padding: 2px;
+	margin: 5px 0px 5px 0px;
+}
+
+.login-button {
+	flex: 1;
+	background-color: #3fa8f7;
+	border-radius: 5px;
+	color: white;
+	border-style: none;
+	padding: 5px 10px 5px 10px;
+}
+
